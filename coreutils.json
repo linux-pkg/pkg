@@ -6,7 +6,10 @@
 			"wget -q --show-progress https://ftp.gnu.org/gnu/coreutils/coreutils-9.6.tar.gz",
 			"tar xzf coreutils-9.6.tar.gz",
 			"ls -a ./coreutils-9.6/",
+			"cat ./coreutils-9.6/INSTALL",
+			"echo ",
 			"cat ./coreutils-9.6/README",
+			"echo ",
 			"cat ./coreutils-9.6/README-install",
 			"./coreutils-9.6/configure"
 		]
