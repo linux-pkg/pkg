@@ -3,7 +3,7 @@
 	"latest": "9.6",
 	"versions": {
 		"9.6": [
-			"wget https://ftp.gnu.org/gnu/coreutils/coreutils-9.6.tar.gz",
+			"wget -q --show-progress https://ftp.gnu.org/gnu/coreutils/coreutils-9.6.tar.gz",
 			"ls ."
 		]
 	}
