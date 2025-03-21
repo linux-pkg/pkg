@@ -7,7 +7,7 @@
 			"tar xzf coreutils-9.6.tar.gz",
 			"cd coreutils-9.6",
 			"ls -a",
-			"./configure",
+			"./configure"
 		]
 	}
 }
