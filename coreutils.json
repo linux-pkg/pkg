@@ -5,7 +5,9 @@
 		"9.6": [
 			"wget -q --show-progress https://ftp.gnu.org/gnu/coreutils/coreutils-9.6.tar.gz",
 			"tar xzf coreutils-9.6.tar.gz",
-			"ls -a"
+			"cd coreutils-9.6",
+			"ls -a",
+			"./configure",
 		]
 	}
 }
