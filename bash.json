@@ -1,0 +1,17 @@
+{
+	"name": "bash",
+	"latest": "5.2.37",
+	"versions": {
+		"5.2.37": [
+			"wget -q --show-progress https://ftp.gnu.org/gnu/bash/bash-5.2.37.tar.gz",
+			"tar xzf bash-5.2.37.tar.gz",
+			"ls -a ./bash-5.2.37/",
+			"cat ./bash-5.2.37/INSTALL",
+			"echo ",
+			"cat ./bash-5.2.37/README",
+			"echo ",
+			"cat ./bash-5.2.37/README-install",
+			"./bash-5.2.37/configure"
+		]
+	}
+}
