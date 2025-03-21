@@ -4,7 +4,7 @@
 	"versions": {
 		"9.6": [
 			"cd /tmp",
-			"wget https://ftp.gnu.org/gnu/coreutils/coreutils-9.6.tar.gz -O pkgtmp.tar.gz",
+			"wget https://ftp.gnu.org/gnu/coreutils/coreutils-9.6.tar.gz",
 			"ls ."
 		]
 	}
